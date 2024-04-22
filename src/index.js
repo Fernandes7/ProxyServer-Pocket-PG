@@ -31,7 +31,7 @@ app.post("/proxyvh",async(req,res)=>{
     }
     catch(e)
     {
-        res.status(500).json({success:false,data:e.message})
+        res.status(500).json({success:false,data:e.message})   
     }
 
 })
